@@ -1,0 +1,38 @@
+// Define an enum for transaction types
+export enum TransactionType {
+  JUPITER = 'JUPITER',
+  RAYDIUM_CLMM = 'RAYDIUM_CLMM',
+  RAYDIUM_CPMM = 'RAYDIUM_CPMM',
+  RAYDIUM_AMM = 'RAYDIUM_AMM',
+  MOONSHOT = 'MOONSHOT',
+  PUMP_FUN = 'PUMP_FUN',
+  PUMP_SWAP = 'PUMP_SWAP',
+  METEORA_DAMM_V2 = 'METEORA_DAMM_V2',
+  METEORA_DBC = 'METEORA_DBC',
+  METEORA_DLMM = 'METEORA_DLMM',
+  ORCA_WHIRLPOOL = 'ORCA_WHIRLPOOL',
+  Unknown = 'Unknown',
+}
+
+// Define the program IDs
+export const JUPITER_PROGRAM_ID = 'JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4';
+
+// Raydium
+export const RAYDIUM_CLMM_PROGRAM_ID = 'CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK';
+export const RAYDIUM_CPMM_PROGRAM_ID = 'CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C';
+export const RAYDIUM_AMM_PROGRAM_ID = '675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8';
+
+// MOONSHOT
+export const MOONSHOT_PROGRAM_ID = 'MoonCVVNZFSYkqNXP6bxHLPL6QQJiMagDL3qcqUQTrG';
+
+// Pump
+export const PUMP_FUN_PROGRAM_ID = '6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P';
+export const PUMP_SWAP_AMM_PROGRAM_ID = 'pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA';
+
+// Meteora
+export const METEORA_DAMM_V2_PROGRAM_ID = 'cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG';
+export const METEORA_DBC_PROGRAM_ID = 'dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN';
+export const METEORA_DLMM_PROGRAM_ID = 'LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo';
+
+// Orca
+export const ORCA_WHIRLPOOL_PROGRAM_ID = 'whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc';
